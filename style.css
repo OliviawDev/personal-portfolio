@@ -889,3 +889,30 @@ button:focus-visible {
     outline-offset: 4px;
 }
 
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f4a6c1;
+    color: #111;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: #111;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
